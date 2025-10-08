@@ -8,6 +8,7 @@
         body {
             font-family: sans-serif;
             display: flex;
+            flex-direction: column; /* Arrange items vertically */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -17,9 +18,22 @@
         h1 {
             color: #333;
         }
+        img {
+            max-width: 200px; /* Limit image size */
+            margin-top: 20px; /* Add space between text and image */
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <h1>Hello, World!</h1>
+    <footer>
+        <p>Created by Prinz Sherman</p>
+    </footer>
+    <img src="fish.png" alt="A blue fish">
 </body>
 </html>
